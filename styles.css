@@ -130,7 +130,7 @@ video{
 }
 
 #page-two {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     z-index: 10;
 }
@@ -188,7 +188,7 @@ video{
 }
 
 #about-content{
-    margin: 0 20px;
+    padding: 0 9%;
     text-align: center;
 }
 
@@ -209,4 +209,157 @@ video{
     object-fit: cover;
     border-radius: 10px;
     opacity: 0.5;
+}
+
+#page-three{
+    height: 65vh;
+    position: relative;
+    z-index: 9;
+    padding: 0 7%;
+}
+
+#cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cards-container .cards{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-1{
+    background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer.jpg");
+}
+
+.card-2{
+    background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4.jpg");
+}
+
+.card-3{
+    background-image: url("https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons.jpg");
+}
+
+.cards h1{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #95C11E;
+    padding: 100px 30px 0px 30px;
+    opacity: 0;
+    transition: all linear 0.2s;
+}
+
+.overlay:hover{
+    opacity: 100;
+}
+
+
+.overlay h4{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.overlay p{
+    font-size: 13px;
+}
+
+#green-container{
+    position: relative;
+    z-index: 9;
+    height: 30vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #a4d521, #86c928, #68bd2e, #47b033, #1da338);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#green-container .img-1{
+    height: 100%;
+    transform: scale(2) rotate(180deg);
+    opacity: 0.5;
+    object-fit: cover;
+    object-position: center;
+}
+
+#green-container .img-2{
+    height: 100%;
+    transform: scale(2) rotate(360deg);
+    opacity: 0.5;
+    object-fit: cover;
+    object-position: center;
+}
+
+#green-container h4{
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+}
+
+#food-container{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+
+#food-content{
+    width: 500px;
+}
+
+#food-container img{
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#food-content p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#food-content h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#food-content a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    border: 2px solid #95C11E;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    transition: all linear 0.3s;
+}
+
+#food-content a:hover{
+    background-color: #95C11E;
+    color: #000;
 }

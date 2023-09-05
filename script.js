@@ -28,3 +28,22 @@ gsap.to("#main",{
         markers: true
     }
 })
+
+function cardModify(){
+    document.querySelector(".card-1").addEventListener("mouseover",function(dets){
+         document.querySelector(".card-heading-1").style.display = "none"
+
+})
+document.querySelector(".card-2").addEventListener("mouseover",function(dets){
+    document.querySelector(".card-heading-2").style.display = "none"
+
+})
+document.querySelector(".card-3").addEventListener("mouseover",function(dets){
+    document.querySelector(".card-heading-3").style.display = "none"
+
+})
+}
+
+
+
+cardModify()
